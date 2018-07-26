@@ -22,4 +22,4 @@ function BoardMember(name, homeState, training){
 //   }
 }
 
-BoardMember.prototype
+BoardMember.prototype.veto
