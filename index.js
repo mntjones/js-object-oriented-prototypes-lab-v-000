@@ -4,9 +4,6 @@ function BoardMember(name, homeState, training){
   this.training = training
 
 
-  this.doCharity = function(){
-    return "I like to help people."
-  }
 
   this.releasePressStatement = function(){
     return "You will see great things from Scuber."
@@ -25,4 +22,8 @@ BoardMember.prototype.approve = function(){
     return 'You can do that!'
   }
 
-BoardMember.prototype.approve = 
+BoardMember.prototype.doCharity = function(){
+    return "I like to help people."
+  }
+  
+BoardMember.prototype.
